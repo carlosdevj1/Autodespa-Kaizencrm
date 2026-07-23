@@ -18,7 +18,7 @@ Autodespa-Kaizencrm/
 ### 1. Lançamento de Débitos
 - Acessa AutoDespa → filtra processos "Entregue"
 - Para cada processo: extrai placa, CPF, valores do REC.pdf
-- Busca cliente no KaizenCRM → lança honorários (R$70), taxa (R$470) e IPVA
+- Busca cliente no KaizenCRM → lança honorários, Taxas e Valores de IPVA
 - Checkpoint por débito (`checkpoint_debitos.json`) — zero duplicatas
 
 ### 2. Anexo de Documentos
